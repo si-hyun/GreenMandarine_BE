@@ -18,9 +18,6 @@ CREATE TABLE CUSTOMER(
     PRIMARY KEY (CUSTOMER_ID)
 );
 
-insert into customer values('wnsdnjs','wnsdnjs','준원','1999-07-09',24,'대학생','wnsdnjs@gmail.com','010-1111-1111','Y',900,800,850);
-insert into customer() values('tlgus','tlgus','시현','1998-01-31',26,'무소득자','tlgus@gmail.com','010-2222-2222','N',600,500,550);
-
 CREATE TABLE CREDIT_LOAN(
 	COMPANY_CODE			VARCHAR(100),
     COMPANY_NAME			VARCHAR(100),
