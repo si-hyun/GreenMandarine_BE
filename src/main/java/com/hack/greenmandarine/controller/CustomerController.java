@@ -37,6 +37,7 @@ public class CustomerController {
 			CustomerDto loginUser = customerService.login(customer);
 			if (loginUser != null) {
 				resultMap.put("message", SUCCESS);
+				resultMap.put("customerInfo", loginUser);
 				status = HttpStatus.ACCEPTED;
 			} else {
 				resultMap.put("message", FAIL);
